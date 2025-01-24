@@ -76,17 +76,17 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="This title is in the Clear-Sans-Medium font">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
-          <Section title="See Your Changes">
+          <Section title="This title is in the Clear-Sans-Medium font">
             <ReloadInstructions />
           </Section>
-          <Section title="Debug">
+          <Section title="This title is in the Clear-Sans-Medium font">
             <DebugInstructions />
           </Section>
-          <Section title="Learn More">
+          <Section title="This title is in the Clear-Sans-Medium font">
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
+    fontFamily: 'clear-sans-medium',
   },
   sectionDescription: {
     marginTop: 8,
